@@ -1,0 +1,35 @@
+[Thu Mar 31 03:35:40 2022] Server response (fd = 5) was: 250: log.txt deleted.
+[Thu Mar 31 03:35:49 2022] Client (fd = 5) requested: dele
+[Thu Mar 31 03:35:49 2022] Server response (fd = 5) was: 550: File unavailable.
+[Thu Mar 31 03:37:40 2022] Client on fd 5 disconnected
+[Thu Mar 31 03:37:42 2022] Server is offline.
+[Thu Mar 31 03:37:48 2022] Server is now online.
+[Thu Mar 31 03:37:50 2022] new client connected with fd 5
+[Thu Mar 31 03:37:55 2022] Client (fd = 5) requested: user
+[Thu Mar 31 03:37:55 2022] Server response (fd = 5) was: 331: User name ok, need password.
+[Thu Mar 31 03:37:56 2022] Client (fd = 5) requested: pass
+[Thu Mar 31 03:37:56 2022] Server response (fd = 5) was: 230: User logged in, proceed. Log out if appropriate.
+[Thu Mar 31 03:38:05 2022] Client (fd = 5) requested: retr
+[Thu Mar 31 03:38:05 2022] Server response (fd = 5) was: 425: Can't open data connection.
+[Thu Mar 31 03:38:32 2022] Client on fd 5 disconnected
+[Thu Mar 31 03:38:34 2022] Server is offline.
+[Thu Mar 31 03:39:16 2022] Server is now online.
+[Thu Mar 31 03:39:19 2022] new client connected with fd 5
+[Thu Mar 31 03:39:21 2022] Client (fd = 5) requested: user
+[Thu Mar 31 03:39:21 2022] Server response (fd = 5) was: 331: User name ok, need password.
+[Thu Mar 31 03:39:23 2022] Client (fd = 5) requested: pass
+[Thu Mar 31 03:39:23 2022] Server response (fd = 5) was: 230: User logged in, proceed. Log out if appropriate.
+[Thu Mar 31 03:39:26 2022] Client (fd = 5) requested: dele
+[Thu Mar 31 03:39:26 2022] Server response (fd = 5) was: 550: File unavailable.
+[Thu Mar 31 03:39:28 2022] Client (fd = 5) requested: quit
+[Thu Mar 31 03:39:28 2022] Server response (fd = 5) was: 221: Successful Quit.
+[Thu Mar 31 03:39:30 2022] Client (fd = 5) requested: user
+[Thu Mar 31 03:39:30 2022] Server response (fd = 5) was: 331: User name ok, need password.
+[Thu Mar 31 03:39:32 2022] Client (fd = 5) requested: pass
+[Thu Mar 31 03:39:32 2022] Server response (fd = 5) was: 230: User logged in, proceed. Log out if appropriate.
+[Thu Mar 31 03:39:34 2022] Client (fd = 5) requested: dele
+[Thu Mar 31 03:39:34 2022] Server response (fd = 5) was: 550: File unavailable.
+[Thu Mar 31 03:39:38 2022] Client (fd = 5) requested: dele
+[Thu Mar 31 03:39:38 2022] Server response (fd = 5) was: 250: testt deleted.
+[Thu Mar 31 03:39:43 2022] Client on fd 5 disconnected
+[Thu Mar 31 03:39:44 2022] Server is offline.
